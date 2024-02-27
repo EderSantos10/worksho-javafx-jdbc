@@ -11,4 +11,5 @@ module workshop_javafx_jdbc {
 	opens gui to javafx.fxml; 	
 	
 	opens model.entities to javafx.base;
+	
 }
