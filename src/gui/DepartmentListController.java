@@ -43,6 +43,7 @@ public class DepartmentListController implements Initializable {
 	private Button btNew;
 	
 	
+	@SuppressWarnings("exports")
 	@FXML
 	public void onBtNewAction(ActionEvent event) {
 		Stage parentStage = Utils.currentStage(event);
